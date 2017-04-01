@@ -64,7 +64,7 @@ namespace PizzaCalories
             {
                 if (value < MinWeight || value > MaxWeight)
                 {
-                    throw new ArgumentOutOfRangeException("Dough weight should be in range [1..200]");
+                    throw new ArgumentOutOfRangeException("Dough weight should be in the range [1..200].");
                 }
                 this.weight = value;
             }

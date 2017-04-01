@@ -46,7 +46,7 @@ namespace PizzaCalories
             {
                 if (value < minWeight || value > MaxWeight)
                 {
-                    throw new ArgumentOutOfRangeException($"{this.Type} should be in range [1..50]");
+                    throw new ArgumentOutOfRangeException($"{this.Type} weight should be in the range [1..50].");
                 }
                 this.weight = value;
             }

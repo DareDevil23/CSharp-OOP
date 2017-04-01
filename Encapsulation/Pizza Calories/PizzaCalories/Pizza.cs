@@ -16,6 +16,10 @@ namespace PizzaCalories
             this.ToppingsAmount = toppingsAmount;
         }
 
+        public Pizza()
+        {
+        }
+
         public string Name
         {
             get { return this.name; }
